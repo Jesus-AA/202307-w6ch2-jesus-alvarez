@@ -1,8 +1,9 @@
 import { Action, ThunkAction, configureStore } from '@reduxjs/toolkit';
+import phoneReducer from '../redux/slice';
 
 export const appStore = configureStore({
   reducer: {
-    counter: () => {},
+    dialer: phoneReducer,
   },
 });
 
