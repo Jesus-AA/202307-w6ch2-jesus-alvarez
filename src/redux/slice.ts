@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 export type PhoneState = {
   dials: string;
-  loadState: 'dialing' | 'idle' | 'calling' | '';
+  loadState: 'dialing' | 'calling' | '';
 };
 
 const initialState: PhoneState = {
